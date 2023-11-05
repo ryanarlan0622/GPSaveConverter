@@ -86,7 +86,7 @@ namespace GPSaveConverter.Library
         /// <returns>True if the default library was updated.</returns>
         internal static bool UpdateDefaultLibrary()
         {
-            string sourceURL = @"https://raw.githubusercontent.com/Fr33dan/GPSaveConverter/master/GPSaveConverter/Resources/GameLibrary.json";
+            string sourceURL = @"https://raw.githubusercontent.com/ryanarlan0622/GPSaveConverter/master/GPSaveConverter/Resources/GameLibrary.json";
             bool returnVal = false;
             using (WebClient wc = new WebClient())
             {

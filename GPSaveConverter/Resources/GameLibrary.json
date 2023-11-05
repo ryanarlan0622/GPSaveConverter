@@ -143,6 +143,24 @@
       ]
     },
     {
+      "PackageName": "SEGAofAmericaInc.M0cb6b3aet_s751p9cej88mt",
+      "TargetProfileTypes": [
+        "Steam"
+      ],
+      "BaseNonXboxSaveLocation": "<Steam-folder>\\userdata\\<user-id>\\1088850\\remote\\",
+      "FileTranslations": [
+        {
+          "NonXboxFilename": "DATA${FileNum}\\\\DATA.DAT",
+          "XboxFileID": "DATA.DAT",
+          "ContainerName1": "DATA${FileNum}",
+          "ContainerName2": "DATA${FileNum}",
+          "NamedRegexGroups": [
+            "(?<FileNum>[0-9]+)"
+          ]
+        }
+      ]
+    },
+    {
       "PackageName": "2637SquanchGamesInc.HighonLife_mh7dg3tfmz2cj",
       "BaseNonXboxSaveLocation": "%LOCALAPPDATA%\\Oregon\\Saved\\SaveGames\\",
       "FileTranslations": [
